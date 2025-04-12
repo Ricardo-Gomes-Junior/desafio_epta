@@ -27,7 +27,7 @@ Todo o sistema foi desenvolvido seguindo boas práticas, como:
 
 1. Clone o repositório:
    ```bash
-   git clone [<https://github.com/Ricardo-Gomes-Junior/desafio_epta.git>]
+   git clone [Front End] (https://github.com/Ricardo-Gomes-Junior/desafio_epta.git) 
    ```
 2. Acesse a pasta:
    ```bash
