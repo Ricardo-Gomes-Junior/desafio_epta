@@ -121,7 +121,7 @@ export function CreateOrEditVehicle({
                   {...register("plate")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-2 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   type="text"
-                  placeholder="QYY-1234"
+                  placeholder="QYY1234"
                   required
                 />
                 <span className="text-xs text-red-500">
