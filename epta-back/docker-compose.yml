@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres 
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: epta-db
+      PGDATA: /data/postgres
+    volumes:
+      - ./data/pg:/data/postgres
+    restart: always  
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
