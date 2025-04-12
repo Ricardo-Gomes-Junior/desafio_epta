@@ -9,11 +9,9 @@ export default function Layout({ ...props }) {
   useEffect(() => {
     const token = localStorage.getItem("token");
 
-    setTimeout(() => {
-      if (!token || !authContext.isTokenValid(token)) {
-        navigate("/login");
-      }
-    }, 2000);
+    if (!token || !authContext.isTokenValid(token)) {
+      navigate("/login");
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
