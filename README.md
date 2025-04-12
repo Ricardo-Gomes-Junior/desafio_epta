@@ -89,7 +89,7 @@ Todo o sistema foi desenvolvido seguindo boas práticas, como:
 
 Caso queira testar as rotas da API, estou compartilhando o projeto do **Insomnia** com todas as requisições configuradas.
 
-- [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=EPTA_API&uri=file%3A%2F%2F%2FC%3A%2FUsers%2Fricar%2FDownloads%2FInsomnia_2025-04-12.yaml)
+- [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=EPTA_API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FRicardo-Gomes-Junior%2Ffundamentos-react-next%2Frefs%2Fheads%2Fmain%2Fepta_api.json%3Ftoken%3DGHSAT0AAAAAAC6SUVXABLTVR5MWD3N6QUPMZ72U34Q)
 
 ---
 
